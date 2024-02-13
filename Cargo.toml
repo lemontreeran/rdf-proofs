@@ -31,7 +31,8 @@ oxttl = { git = "https://github.com/oxigraph/oxigraph.git", rev = "f10e5a4" }   
 oxsdatatypes = { git = "https://github.com/oxigraph/oxigraph.git", rev = "f10e5a4" } # to be fixed once Oxigraph v0.4 is released
 oxiri = "0.2"
 
-rdf-canon = { git = "https://github.com/zkp-ld/rdf-canon.git", version = "v0.15.0-alpha.2" }
+# rdf-canon = { git = "https://github.com/zkp-ld/rdf-canon.git", version = "v0.15.0-alpha.2" }
+rdf-canon = "0.15.0-alpha.2"
 
 proof_system = { version = "0.24", default-features = false }
 bbs_plus = { version = "0.18", default-features = false }
